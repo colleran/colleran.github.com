@@ -37,7 +37,7 @@ h2 {
 	list-style: none;
 	float: left;
 	margin: 0px;
-	padding: 0px;
+	padding-left: 220px;
 	display: block;
 }
 
@@ -90,11 +90,13 @@ ul {
 
 .profilepic {
 	margin: 0px 20px 20px 20px;
+	position: absolute;
+	z-index: 1;
 }
 
 .iconlist {
 	margin: 0px;
-	padding-left: 240px;
+	padding-left: 176px;
 	width: 800px;
 	float: left;
 }
@@ -159,6 +161,10 @@ ul {
 
 .instainterest {
 	width: 220px;
+}
+
+.sections {
+	padding-left: 240px;
 }
 
 .body li {
