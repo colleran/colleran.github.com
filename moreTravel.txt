@@ -1,0 +1,35 @@
+		<div class="postContainer">
+		<div class="row">
+			<div class="column large-2">
+				<!-- This space is for a profile picture -->
+				<div><img src="images/linked.jpg" alt="Headshot" class="profilePhoto"></div>
+			</div>
+			<div class="column large-10 travelPost">
+				<div class="row">
+					<div class="column large-12">
+						<div class="row">
+							<div class="column large-6 postTitle">Paris, France</div>
+							<div class="column large-6 postDate">March 3rd, 2013</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column large-8" title="travelImage">
+						<img src="images/travelImage4.jpg" class="postImage" />
+					</div>
+					<div class="column large-4">
+						<div class="row">
+							<div class="column large-12">
+								<p class="postDesc">From the Eiffel tower, to the Louvre, to the Arc De Triomphe &mdash; it would take a lifetime to truly experience all the sights that Paris has to offer. Besides the sights, the food, wine, and (depspite what you hear) the people aren't half-bad either! This was my 3rd time to Paris and I intend on coming back on every chance that I get!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column large-12">
+								<img src="images/mapImage1.png" class="mapImage" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>

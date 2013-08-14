@@ -1,0 +1,152 @@
+body {
+		background-image:url('../images/subtle-pattern-1.jpg');
+		padding-top: 1em;
+}
+
+.loveAction {
+	width: 40px;
+	height: 40px;
+	opacity: .4;
+	border-style: solid;
+	border-width: 1px;
+/*	border-color: rgba(256,256,256,.9);*/
+	border-radius: 5px;
+	margin-top: 1em;
+	box-shadow: 0px 0px 3px #000;
+}
+
+.fb-comments {
+	margin: 20px;
+}
+
+.textbox {
+	background-color: blue;
+	height: 100px;
+	border: 5px;
+	border-color: red;
+}
+
+.postContainer {
+	margin-bottom: 2em;
+}
+
+.travelPost {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(256,256,256,.3);
+	border-radius: 4px;
+	background-color: rgba(256,256,256,.55);
+	padding-bottom: 1em;
+	-moz-box-shadow: 0 0 2px #888;
+	-webkit-box-shadow: 0 0 2px #888;
+	box-shadow: 0 0 2px #888;
+/*	background-image:url('../bgs/subtle-pattern-5.jpg');*/
+}
+
+.postTitle {
+	font-size: 1.5em;
+	font-family: 'Cabin', sans-serif;
+	padding: 1em;
+}
+
+.postDate {
+	font-style: italic;
+	font-size: .8em;
+	padding: .6em;
+	text-align: right;
+}
+
+.profilePhoto {
+	width: 100%;
+	border-radius: 200px;
+}
+
+.postImage {
+	width: 90%;
+	margin-left: 5%;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 1px #888;
+	-webkit-box-shadow: 0 0 1px #888;
+	box-shadow: 0 0 1px #888;
+}
+
+.mapImage {
+	width: 100%;
+}
+
+.loadMore {
+	background-color: rgba(0,0,0,.1);
+	border-radius: 7px;
+	text-align: center;
+	color: rgba(0,0,0,.2);
+	-moz-box-shadow: 0 0 2px #888;
+	-webkit-box-shadow: 0 0 2px #888;
+	box-shadow: 0 0 2px #888;
+}
+
+.contacticon {
+	height: 64px;
+	width: 64px;
+	float: left;
+}
+
+@media only screen and (max-width: 768px) {
+	.contacticon {
+	height: 60px;
+	width: 60px;
+	float: left;
+}
+}
+
+li {
+	list-style: none;
+}
+
+.github {
+	background-image: url("../images/github-64.png");
+	background-color: #3782c8;
+}
+
+.facebook {
+	background-image: url("../images/facebook-64.png");
+	background-color: #3B5998;
+}
+
+.linkedin {
+	background-image: url("../images/linkedin-64.png");
+	background-color: #007FB1;
+}
+
+.twitter {
+	background-image: url("../images/twitter-64.png");
+	background-color: #00ACED;
+}
+
+.instagram {
+	background-image: url("../images/instagram-64.png");
+	background-color: #3F729B;
+}
+
+.google {
+	background-image: url("../images/googleplus-64.png");
+	background-color: #D14836;
+}
+
+.footer {
+	background-color: #4d4d4d;
+	font-size: 1.1em;
+	padding-top: 2em;
+	padding-bottom: 6em;
+	border-top: 2px #363636;
+	border-style: solid;
+}
+
+.footerNav li {
+	float: left;
+	margin: 1em;
+	text-align: center;
+}
+
+.footerNav li a {
+	color: #d2d2d2;
+}
