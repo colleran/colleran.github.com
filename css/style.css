@@ -2,21 +2,18 @@ html {
 	font-size: 16px;
 }
 
-.bodyReplacement {
-	font-family: sans-serif;
-	width: 800px;
-	margin: 0px auto;
-/*	background-image: url("../images/background.jpg");*/
-}
-
 .sectionContent {
 	padding: 10px;
+}
+
+#profilePhoto {
+	float: left;
 }
 
 h2 {
 	background-color: rgba(139,129,125,.2);
 	line-height: 64px;
-	width: 800px;
+	width: 100%;
 	display: block;
 	margin-top: 0px;
 	padding-left: 20px;
@@ -25,10 +22,6 @@ h2 {
 .navbar img {
 	float: left;
 	margin-right: 0px;
-}
-
-.bump {
-	height: 64px;
 }
 
 .navbar ul {
@@ -71,25 +64,16 @@ Removed hover property
 	margin: 0px auto;*/
 }
 
-#header, .body {
+#header, .mainContent {
 	background-color: #f1f3f8;
 }
 
-#header {
-	padding: 0px 20px 20px 20px;
-	margin: 0px 0px 0px 0px;
-}
-
-.body {
-	padding: 0px;
+.mainContent {
+/*	padding: 0px;*/
 }
 
 ul {
 	list-style: none;
-}
-
-.profilepic {
-	margin: 0px 20px 20px 20px;
 }
 
 .iconlist {
@@ -105,7 +89,6 @@ ul {
 	top: 0px;
 	margin: 0px auto;
 	padding: 0px;
-	width: 800px;
 }
 
 .contacticonTop {
@@ -150,27 +133,11 @@ ul {
 	background-color: #D14836;
 }
 
-.interesttile {
-	height: 300px;
-	width: 250px;
-	float: left;
-	background-color: #e0e0e0;
-	padding: 5px;
-	margin: 5px;
-	text-align: center;
-}
-
-.interests {
-	height: 350px;
-	width: 780px;
-    margin: 0 auto;
-}
-
 .instainterest {
 	width: 220px;
 }
 
-.body li {
+.mainContent li {
 	margin: 4px;
 }
 
@@ -181,9 +148,6 @@ ul {
 	font-weight: bold;
 }
 
-.interests {
-	padding: auto;
-}
 
 #myname {
 	padding: 0px;
@@ -203,6 +167,7 @@ ul {
 .footer {
 	background-color: #4d4d4d;
 	font-size: 1.1em;
+	margin-top: 4em;
 	padding-top: 2em;
 	padding-bottom: 6em;
 	border-top: 2px #363636;
