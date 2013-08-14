@@ -7,7 +7,8 @@ html {
 }
 
 #profilePhoto {
-	float: left;
+	width: 100%;
+/*	float: left;*/
 }
 
 h2 {
