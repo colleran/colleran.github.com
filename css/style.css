@@ -67,8 +67,8 @@ Removed hover property
 */
 
 #container {
-	width: 800px;
-	margin: 0px auto;
+/*	width: 800px;
+	margin: 0px auto;*/
 }
 
 #header, .body {
