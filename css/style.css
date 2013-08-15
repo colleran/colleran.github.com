@@ -2,6 +2,10 @@ html {
 	font-size: 16px;
 }
 
+body {
+	background-image:url('../images/subtle-pattern-1.jpg');
+}
+
 .sectionContent {
 	padding: 10px;
 }
@@ -28,7 +32,7 @@ h2 {
 }
 
 #header, .mainContent {
-	background-color: #f1f3f8;
+	background-color: #fff
 }
 
 .mainContent {
@@ -130,6 +134,53 @@ ul {
 	width: 60px;
 	float: left;
 }
+}
+
+h4 {
+	height: 50px;
+	padding-left: 120px;
+}
+
+#Eventbrite {
+	background-image:url('../images/eventbritelogo.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#EY {
+	background-image:url('../images/eylogo.png');
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#Blackrock {
+	background-image:url('../images/blackrocklogo.gif');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#Daily {
+	background-image:url('../images/uwlogo.png');
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#techcrunch {
+	background-image:url('../images/tclogo.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#tnw {
+	background-image:url('../images/tnwlogo.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
 }
 
 .footer {
