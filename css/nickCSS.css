@@ -1,0 +1,27 @@
+body {
+	background-image:url('../images/subtle-pattern-1.jpg');
+}
+
+.header {
+	height: 100px;
+}
+
+.profilePhoto {
+	width: 100px;
+	border-radius: 150px;
+}
+
+.footer {
+	color: #fff;
+	background-image:url('');
+	background-color: #000;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.footer ul li {
+	float: left;
+	height: 150px;
+}
