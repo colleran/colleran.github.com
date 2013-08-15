@@ -27,51 +27,6 @@ h2 {
 	padding-left: 20px;
 }
 
-/*.navbar img {
-	float: left;
-	margin-right: 0px;
-}
-
-.navbar ul {
-	list-style: none;
-	float: left;
-	margin: 0px;
-	padding: 0px;
-	display: block;
-}
-
-.navbar ul li {
-	float: left;
-	display: block;
-	height: 69px;
-	width: 128px;
-	text-align: center;
-	background-color: rgba(139,129,125,.2);
-}
-
-.navbar ul li a {
-	text-decoration: none;
-	height: 48px;
-	width: 128px;
-	display: block;
-	vertical-align: text-bottom;
-	padding-top: 20px;
-	font-weight: bold;
-	color: #fff;
-}*/
-
-/*.navbar ul li a:hover {
-	color: #483D4C;
-	background-color: #f1f3f8;
-}
-Removed hover property
-*/
-
-#container {
-/*	width: 800px;
-	margin: 0px auto;*/
-}
-
 #header, .mainContent {
 	background-color: #f1f3f8;
 }
@@ -85,29 +40,33 @@ ul {
 }
 
 .iconlist {
-	margin: 0px;
-	width: 800px;
-	float: left;
+	position: relative;
+	right: 64px;
 }
 
-.contactbar {
+.iconbar {
 /*	float: top;*/
 	position: fixed;
 	top: 0px;
-	margin: 0px auto;
+/*	margin: 0px auto;*/
 	padding: 0px;
+	position: right;
+}
+
+.contactlist li {
+	padding-right: 64px;
 }
 
 .contacticonTop {
 	height: 64px;
 	width: 64px;
-	float: left;
+/*	float: left;*/
 }
 
-.contacticon {
+.contacticonBottom {
 	height: 64px;
 	width: 64px;
-	float: left;
+	float: right;
 }
 
 .github {
