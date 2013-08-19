@@ -9,10 +9,12 @@ body {
 /*	background-image:url('../images/subtle-pattern-1.jpg');*/
 	background-color: #E7E7E8;
 	font-family: 'Cabin Condensed', sans-serif;
+
+/*	Secondary color 295771*/
 }
 
 .bannerTransition {
-	height: 50px;
+	height: 90px;
 background: -moz-linear-gradient(top,  rgba(0,0,0,0) 1%, rgba(0,0,0,0.2) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); /* Chrome10+,Safari5.1+ */
@@ -32,6 +34,10 @@ background: -ms-linear-gradient(top,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); /*
 background: linear-gradient(to bottom,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 
+}
+
+.top-bar-section, .top-bar, .title-area, .toggle-top-bar, .contain-to-grid, .top-bar-section li a:not(.button)  {
+		background-color: #295771;
 }
 
 
@@ -58,7 +64,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 .box {
 	color: gray;
 	position: relative;
-/*	width: 500px;*/
+	max-width: 400px;
 	padding: 0px;
 	margin: 0 auto;
 	background-color: #fff;
@@ -99,14 +105,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 
 .resumeExample {
 	color: gray;
-	margin: 20px 50px 20px 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 15%;
+	width: 70%;
 	max-height: 250px;
+	max-width: 356px;
 /*	-webkit-box-reflect: below 10px;  
 	-webkit-gradient(linear, left top, left bottombottom, from(transparent), to(rgba(250, 250, 250, 0.1)))*/
 }
 
+.benefitTile {
+	text-align: center;
+	padding: 25px;
+	border: 1px solid black;
+	height: 350px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px black;
+	margin-top: 10px;
+}
+
+.benefitImages {
+	opacity: .6;
+	margin: 10px;
+}
+
+
 .blackBar {
-	background-color: #000;
+	background-color: #295771;
 }
 
 .footer {
