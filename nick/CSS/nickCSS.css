@@ -1,5 +1,6 @@
 body {
 	/* comment */
+
 }
 
 .header {
@@ -31,12 +32,6 @@ body {
 	color: #6B6B6B;
 }
 
-.selected {
-/*	text-decoration: overline;
-	font-color: #000;*/
-/*	font-weight: bold;*/
-}
-
 .headerList a:hover {
 	color: #000;
 }
@@ -44,7 +39,6 @@ body {
 .selectedLinks {
 	text-decoration: overline;
 	color: #000;
-/*	font-weight: bold;*/
 }
 
 
