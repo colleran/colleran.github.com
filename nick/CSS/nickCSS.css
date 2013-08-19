@@ -1,5 +1,5 @@
 body {
-	background-image:url('../images/subtle-pattern-1.jpg');
+
 }
 
 .header {
@@ -13,7 +13,6 @@ body {
 .homepage {
  	margin-top: 1em;
  	margin-bottom: 1em;
- 	min-height: 100%;
 }
 
 .homepage h2 a:hover {

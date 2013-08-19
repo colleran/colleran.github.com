@@ -4,18 +4,16 @@
 		<title>Nick Pope's Website</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/nickCSS.css">
+		<link rel="stylesheet" href="css/nickCSS.css">	
 		<script src="js/vendor/jquery.js"></script>
 		<script src="js/nickJS.js"></script>
 		<script src="js/foundation/foundation.js"></script>	
-		<script src="js/foundation/foundation.topbar.js"></script>
-		<script src="js/vendor/custom.modernizr.js"></script>	
-		<link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
  		<meta name="viewport" content="width=device-width" />
+ 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
 	<body>
-		<div>
-			<div class="row homepage" id="fullPage">
+		<div class="fullPage">
+			<div class="row homepage">
 				<div class="columns large-12">
 					<a href=#><img class="profilePhoto" src="images/nickphoto.jpg"></a>
 				</div>
@@ -24,7 +22,7 @@
 				<div class="columns large-6">
 					<h1>Hello, I'm Nick.</h1>
 					<h2><a href="#ideas">What I think</a></h2>
-					<h2><a href="#work">What I do</a></h2>
+					<h2><a href="#work" rel="" id="anchor2">What I do</a></h2>
 					<h5>(therefore)</h5>
 					<h2><a href="#about">What I am</a></h2>
 				</div>
@@ -33,18 +31,20 @@
 				</div>			
 			</div>
 		</div>	
-	<div> 
-		<div class="row" id="ideas">
+	<div class="fullPage"> 
+<!-- 		<div class="row" id="ideas">
 			<div class="columns large-12">
-				
+				<h2>About...</h2>
 				<script type="text/javascript" src="http://nickthepope.tumblr.com/js"></script>
 
 			</div>
 	
-		</div>
+		</div> -->
 
-
-		<div class="row" id="work">
+	</div>
+	<div class="fullPage">
+		<div class="row">
+		<h2><a name="work" id="work">Work...</a></h2>
 			<div class="columns large-4">
 				<img src="images/file.jpg" class="fileIcon">
 			</div>
@@ -66,8 +66,8 @@
 				<img src="images/file.jpg" class="fileIcon">
 			</div>		
 		</div>
-
-
+	</div>
+	<div class="fullPage">
 		<div class="row" id="about">
 			<div class="columns large-6">
 				<h1>I am...</h1>
