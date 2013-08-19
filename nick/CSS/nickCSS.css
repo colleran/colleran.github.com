@@ -6,9 +6,6 @@ body {
 	height: 100px;
 }
 
-.fullPage {
-}
-
 .headerList {
 	margin-left: 50px;
 }
@@ -16,6 +13,7 @@ body {
 .homepage {
  	margin-top: 1em;
  	margin-bottom: 1em;
+ 	min-height: 100%;
 }
 
 .homepage h2 a:hover {
@@ -123,7 +121,6 @@ body {
 .blackBar {
 	margin-top: 3em;
 	background-color: #000;
-	float: right;
 }
 
 .footer a {
@@ -162,3 +159,10 @@ body {
 	background-image: url("../images/twitter-64.png");
 	background-color: #00ACED;
 }
+
+/*.fullPage {
+	height: 100%;
+	position:absolute;
+    left: 0;
+    right: 0;
+}*/

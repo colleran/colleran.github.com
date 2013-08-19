@@ -39,7 +39,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 /*	background-image:url('../images/subtle-pattern-5.jpg');*/
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background: rgba(24, 167, 181, .1);
+	background: rgba(42, 82, 190, .2);
 	color: gray;
 /*	background: -moz-linear-gradient(top,  rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 1%, rgba(0,0,0,0.85) 15%, rgba(0,0,0,1) 46%, rgba(0,0,0,0.99) 50%, rgba(0,0,0,0.9) 75%, rgba(0,0,0,1) 100%); 
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.75)), color-stop(1%,rgba(0,0,0,0.75)), color-stop(15%,rgba(0,0,0,0.85)), color-stop(46%,rgba(0,0,0,1)), color-stop(50%,rgba(0,0,0,0.99)), color-stop(75%,rgba(0,0,0,0.9)), color-stop(100%,rgba(0,0,0,1))); 
