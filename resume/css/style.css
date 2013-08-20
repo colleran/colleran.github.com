@@ -1,51 +1,59 @@
+/* Collor Pallette 
+Blue: #295771;
+Green: 2B8841;
+*/
+
+
 html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-		font-family: 'Cabin Condensed', sans-serif;
+		font-family: 'Flamenco', cursive;
 }
 
 body {
 /*	background-image:url('../images/subtle-pattern-1.jpg');*/
-	background-color: #E7E7E8;
+/*	background-color: #E7E7E8;*/
 	font-family: 'Cabin Condensed', sans-serif;
-
-/*	Secondary color 295771*/
+	background-color: #fff;
 }
 
 .bannerTransition {
-	height: 90px;
-background: -moz-linear-gradient(top,  rgba(0,0,0,0) 1%, rgba(0,0,0,0.2) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#33000000',GradientType=0 ); /* IE6-9 */
+/*	height: 55px;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 1%, rgba(0,0,0,0.2) 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2))); 
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); 
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); 
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); 
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.2) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#33000000',GradientType=0 ); 
+	background-color: #2980b9;*/
 }
 
 .bannerBottom {
 	height: 50px;
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.2) 1%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	/*background: -moz-linear-gradient(top,  rgba(0,0,0,0.2) 1%, rgba(0,0,0,0) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0))); 
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); 
+background: -o-linear-gradient(top,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); 
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); 
+background: linear-gradient(to bottom,  rgba(0,0,0,0.2) 1%,rgba(0,0,0,0) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#00000000',GradientType=0 ); */
 
 }
 
 .top-bar-section, .top-bar, .title-area, .toggle-top-bar, .contain-to-grid, .top-bar-section li a:not(.button)  {
-		background-color: #295771;
+		background-color: #34495e;
 }
 
 
 .banner {
 /*	background-image:url('../images/subtle-pattern-5.jpg');*/
-	padding-top: 40px;
+	
+	padding-top: 140px;
 	padding-bottom: 40px;
 /*	background: rgba(42, 82, 190, .2);*/
+	background-color: ;
 	color: gray;
 /*	background: -moz-linear-gradient(top,  rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 1%, rgba(0,0,0,0.85) 15%, rgba(0,0,0,1) 46%, rgba(0,0,0,0.99) 50%, rgba(0,0,0,0.9) 75%, rgba(0,0,0,1) 100%); 
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.75)), color-stop(1%,rgba(0,0,0,0.75)), color-stop(15%,rgba(0,0,0,0.85)), color-stop(46%,rgba(0,0,0,1)), color-stop(50%,rgba(0,0,0,0.99)), color-stop(75%,rgba(0,0,0,0.9)), color-stop(100%,rgba(0,0,0,1))); 
@@ -53,12 +61,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.75) 1%,rgba(0,0,0,0.85) 15%,rgba(0,0,0,1) 46%,rgba(0,0,0,0.99) 50%,rgba(0,0,0,0.9) 75%,rgba(0,0,0,1) 100%); 
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.75) 1%,rgba(0,0,0,0.85) 15%,rgba(0,0,0,1) 46%,rgba(0,0,0,0.99) 50%,rgba(0,0,0,0.9) 75%,rgba(0,0,0,1) 100%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', endColorstr='#000000',GradientType=0 ); */
-	border: 1px solid black;
+	border-top: 1px solid black;
 	box-shadow: inset 0px 0px 4px;
 }
 
 .banner h1 {
-	color: #000;
+	color: #e67e22;
 }
 
 .box {
@@ -103,6 +111,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 	transform: skew(5deg) rotate(5deg);
 }
 
+.benefitTile {
+	text-align: center;
+	padding: 25px;
+/*	border: 1px solid black;*/
+	height: 350px;
+	background-color: white;
+/*	border-radius: 15px;*/
+/*	box-shadow: 1px 1px 5px black;*/
+	margin-top: 10px;
+}
+
 .resumeExample {
 	color: gray;
 	margin-top: 30px;
@@ -115,30 +134,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 	-webkit-gradient(linear, left top, left bottombottom, from(transparent), to(rgba(250, 250, 250, 0.1)))*/
 }
 
-.benefitTile {
-	text-align: center;
-	padding: 25px;
-	border: 1px solid black;
-	height: 350px;
-	background-color: white;
-	border-radius: 15px;
-	box-shadow: 1px 1px 5px black;
-	margin-top: 10px;
-}
-
 .benefitImages {
 	opacity: .6;
 	margin: 10px;
 }
 
+.benefitsHero {
+	background-color: #2980b9;
+	padding-bottom: 100px;
+/*	opacity: .6;*/
+}
 
 .blackBar {
-	background-color: #295771;
+	background-color: #34495e;
 }
 
 .footer {
 	height: 300px;
-	margin-top: 100px;
 }
 
 h6 {
