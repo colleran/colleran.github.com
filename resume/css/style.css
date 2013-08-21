@@ -8,7 +8,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-		font-family: 'Flamenco', cursive;
+	font-family: 'Cabin Condensed', sans-serif;
 }
 
 body {
@@ -67,6 +67,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 
 .banner h1 {
 	color: #e67e22;
+	font-family: 'Flamenco', cursive;
 }
 
 .box {
@@ -150,7 +151,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 }
 
 .footer {
+	padding-top: 20px;
 	height: 300px;
+	color: #fff;
+}
+
+.footer h4 {
+	color: #fff;
+	font-family: 'Cabin Condensed', sans-serif;
+}
+
+.footer ul {
+	list-style: none;	
 }
 
 h6 {
