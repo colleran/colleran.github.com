@@ -65,6 +65,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', e
 	box-shadow: inset 0px 0px 4px;
 }
 
+.banner p {
+	font-size: 1.3em;
+}
+
 .banner h1 {
 	color: #e67e22;
 	font-family: 'Flamenco', cursive;
