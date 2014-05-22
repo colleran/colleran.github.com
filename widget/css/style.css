@@ -1,0 +1,215 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-image:url('../images/subtle-pattern-1.jpg');
+}
+
+.sectionContent {
+	padding: 10px;
+}
+
+#profilePhoto {
+/*	width: 100%;*/
+/*	float: left;*/
+	width: 200px;
+}
+
+@media only screen and (max-width: 1095px) {
+	.iconbar {
+		display: none;
+	}
+}
+
+h2 {
+	background-color: rgba(139,129,125,.2);
+	line-height: 64px;
+	width: 100%;
+	display: block;
+	margin-top: 0px;
+	padding-left: 20px;
+}
+
+#header, .mainContent {
+	background-color: #fff
+}
+
+.mainContent {
+/*	padding: 0px;*/
+}
+
+ul {
+	list-style: none;
+}
+
+.iconlist {
+	position: relative;
+	margin-top: 45px;
+	right: 64px;
+	z-index: -10;
+}
+
+.iconbar {
+/*	float: top;*/
+	position: fixed;
+	top: 0px;
+/*	margin: 0px auto;*/
+	padding: 0px;
+	position: right;
+}
+
+.contactlist li {
+	padding-right: 64px;
+}
+
+.contacticonTop {
+	height: 64px;
+	width: 64px;
+/*	float: left;*/
+}
+
+.contacticonBottom {
+	height: 64px;
+	width: 64px;
+	float: right;
+}
+
+.github {
+	background-image: url("../images/github-64.png");
+	background-color: #3782c8;
+}
+
+.facebook {
+	background-image: url("../images/facebook-64.png");
+	background-color: #3B5998;
+}
+
+.linkedin {
+	background-image: url("../images/linkedin-64.png");
+	background-color: #007FB1;
+}
+
+.twitter {
+	background-image: url("../images/twitter-64.png");
+	background-color: #00ACED;
+}
+
+.instagram {
+	background-image: url("../images/instagram-64.png");
+	background-color: #3F729B;
+}
+
+.google {
+	background-image: url("../images/googleplus-64.png");
+	background-color: #D14836;
+}
+
+.instainterest {
+	width: 220px;
+}
+
+.mainContent li {
+	margin: 4px;
+}
+
+.duration {
+	float: right;
+	margin: 0px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+#myname {
+	padding: 0px;
+	margin: 0px;
+	font-size: 3em;
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+	.contacticon {
+	height: 60px;
+	width: 60px;
+	float: left;
+}
+}
+
+h4 {
+	height: 50px;
+	padding-left: 120px;
+}
+
+#Eventbrite {
+	background-image:url('../images/eventbritelogo.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#EY {
+	background-image:url('../images/eylogo.png');
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#Blackrock {
+	background-image:url('../images/blackrocklogo.gif');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#Daily {
+	background-image:url('../images/uwlogo.png');
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#techcrunch {
+	background-image:url('../images/tclogo.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#tnw {
+	background-image:url('../images/tnwlogo.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.footer {
+	background-color: #4d4d4d;
+	font-size: 1.1em;
+	margin-top: 4em;
+	padding-top: 2em;
+	padding-bottom: 6em;
+	border-top: 2px #363636;
+	border-style: solid;
+	z-index: 10;
+}
+
+.footerNav li {
+	float: left;
+	margin: 1em;
+	text-align: center;
+}
+
+.footerNav li a {
+	color: #d2d2d2;
+}
+
+/* Clear Fix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

@@ -1,0 +1,164 @@
+body {
+	background-image:url('../images/subtle-pattern-1.jpg');
+}
+
+.header {
+	height: 100px;
+}
+
+.fullPage {
+}
+
+.headerList {
+	margin-left: 50px;
+}
+
+.homepage {
+ 	margin-top: 1em;
+ 	margin-bottom: 1em;
+}
+
+.homepage h2 a:hover {
+	color: #6B6B6B;
+}
+
+.headerNav {
+	float: left;
+	list-style: none;
+/*	color: #6B6B6B;*/
+	font-size: 2em;
+	margin: 10px 30px 10px 30px;
+}
+
+.headerLinks {
+	color: #6B6B6B;
+}
+
+.selected {
+/*	text-decoration: overline;
+	font-color: #000;*/
+/*	font-weight: bold;*/
+}
+
+.headerList a:hover {
+	color: #000;
+}
+
+.selectedLinks {
+	text-decoration: overline;
+	color: #000;
+/*	font-weight: bold;*/
+}
+
+
+.profilePhoto {
+	width: 100px;
+	border-radius: 150px;
+	float: left;
+}
+
+.fileIcon {
+	max-width: 300px;
+	margin: 10px;
+	border-radius: 5px;
+	border: solid 1px;
+	box-shadow: 0px 1px 3px;
+}
+
+.tumblr_post {
+	display: inline;
+}
+
+.tumblr_post:nth-child(4) {
+	display: none;
+}
+
+.tumblr_post:nth-child(5) {
+	display: none;
+}
+
+.tumblr_post:nth-child(6) {
+	display: none;
+}
+
+.tumblr_post:nth-child(7) {
+	display: none;
+}
+
+.tumblr_post:nth-child(8) {
+	display: none;
+}
+
+.tumblr_post:nth-child(9) {
+	display: none;
+}
+
+.tumblr_post:nth-child(10) {
+	display: none;
+}
+
+/*.tumblr_video_post, .tumblr_photo_post {
+	display: none;
+}*/
+
+.footer {
+	color: #fff;
+	padding: 20px;
+	background-color: #000;
+	height: 15em;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.homepage h2 a {
+	color: #000;
+}
+
+.homepage ul {
+	float: left;
+}
+
+.blackBar {
+	margin-top: 3em;
+	background-color: #000;
+	float: right;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footerNav {
+	float: left;
+	margin: 15px;
+	font-size: 1.5em;
+}
+
+.socialIcons {
+}
+
+.social {
+	height: 64px;
+	width: 64px;
+/*	border-radius: 50px;*/
+	float: left;
+	margin: 2px;
+}
+
+.facebook {
+	background-image: url("../images/facebook-64.png");
+	background-color: #3B5998;
+	background-repeat: no-repeat;
+}
+
+.linkedin {
+	background-image: url("../images/linkedin-64.png");
+	background-color: #007FB1;
+}
+
+.twitter {
+	background-image: url("../images/twitter-64.png");
+	background-color: #00ACED;
+}
