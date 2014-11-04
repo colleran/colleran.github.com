@@ -183,6 +183,13 @@ h4 {
 	background-position: left top;
 }
 
+#huffpo {
+	background-image:url('../images/huffpo.jpeg');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
 .footer {
 	background-color: #4d4d4d;
 	font-size: 1.1em;
