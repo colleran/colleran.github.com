@@ -1,0 +1,706 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelfly</title>
+    <script src="https://ebmedia.eventbrite.com/s3­build/26238­rc2015­01­19­55b6c1d/django/js/src/plugi ns/api.js"></script>
+    </script>
+  </head>
+  <body>
+  <div class="subsection">
+
+    <div class="g-cell g-cell-1-1 l-padded-v-bottom-4 l-block-2">
+        <div class="notification notification--info ">
+            <i class="ico-info"></i>
+            <p>Eventbrite and SurveyMonkey are teaming up to help you get feedback from your attendees. If you don't have a SurveyMonkey account you can create a free account once you get to the SurveyMonkey website.</p>
+        </div>
+    </div>
+
+    <div class="g-cell g-cell-1-1 g-cell-lg-6-12 l-padded-v-bottom-3">
+        <section id="select_survey_option">
+
+            <h3 class="text-heading-secondary">1. Select your survey option</h3>
+            <p>Use one of Eventbrite's templates or create your own, either from scratch or by copying a past survey.</p>
+
+            <h4>Survey Options</h4>
+
+            <form action="" method="post" class="responsive-form">
+                <ul id="survey_options">
+                    <li class="responsive-form__radio">
+                        <input id="template_standard" type="radio" name="survey_template" data-template_id="1" data-create_type="2" checked="">
+                        <label class="custom-input--delegate" for="template_standard"></label>
+                        <label for="template_standard">Standard</label>
+                    </li>
+                    <li class="responsive-form__radio">
+                        <input id="template_professional" type="radio" name="survey_template" data-template_id="2" data-create_type="2">
+                        <label class="custom-input--delegate" for="template_professional"></label>
+                        <label for="template_professional">Professional</label>
+                    </li>
+                    <li class="responsive-form__radio">
+                        <input id="template_entertainment" type="radio" name="survey_template" data-template_id="3" data-create_type="2">
+                        <label class="custom-input--delegate" for="template_entertainment"></label>
+                        <label for="template_entertainment">Entertainment</label>
+                    </li>
+                    <li class="responsive-form__radio">
+                        <input id="template_endurance" type="radio" name="survey_template" data-template_id="4" data-create_type="2">
+                        <label class="custom-input--delegate" for="template_endurance"></label>
+                        <label for="template_endurance">Endurance Sport</label>
+                    </li>
+                    <li class="responsive-form__radio">
+                        <input id="template_new" type="radio" name="survey_template" data-create_type="3">
+                        <label class="custom-input--delegate" for="template_new"></label>
+                        <label for="template_new">Create a new survey</label>
+                    </li>
+                    <li class="responsive-form__radio">
+                        <input id="template_copy" type="radio" name="survey_template" data-create_type="1">
+                        <label class="custom-input--delegate" for="template_copy"></label>
+                        <label for="template_copy">Copy an existing survey</label>
+                    </li>
+                </ul>
+            </form>
+
+        </section>
+    </div>
+
+    <div class="g-cell g-cell-1-1 g-cell-lg-6-12 l-padded-v-bottom-3">
+        <section id="send_survey_template">
+
+            <h3 class="text-heading-secondary">2. Send Template to SurveyMonkey</h3>
+            <p>SurveyMonkey seamlessly pulls all of your attendee emails from your Eventbrite account so that you can send your survey and analyze the responses.</p>
+            <aside>By clicking "Continue", you authorize SurveyMonkey to access your Eventbrite data on your behalf as described above.</aside>
+
+            <a href="javascript:void(0)" class="js-survey-monkey-submit btn" target="_blank">Continue</a>
+
+            <nav>
+                <h4>Looking for your survey responses?</h4>
+                <a href="http://www.surveymonkey.com/MySurveys.aspx" target="_blank">Manage your surveys and analyze responses »</a>
+            </nav>
+
+        </section>
+    </div>
+
+    <div class="g-cell g-cell-1-1">
+        <h4 class="text-heading-secondary l-block-6 l-padded-v-bottom-2">Preview</h4>
+        <section id="survey_preview" class="template_standard">
+
+            <article id="template_copy_preview">
+                <h4>Copy an existing survey</h4>
+                <p>This selection will take you to SurveyMonkey to copy one of the existing surveys in your account. This option is only available to existing SurveyMonkey users. If you do not have a SurveyMonkey account, select from the templates above or 'Create a new survey'.</p>
+            </article>
+
+            <article id="template_new_preview">
+                <h4>Create a new survey</h4>
+                <p>This selection will take you to SurveyMonkey to create a new survey. If you do not have a SurveyMonkey account, you can create one for free after you click 'Continue'.</p>
+            </article>
+
+            <article id="template_standard_preview">
+                <h4>Survey Attendees (Standard)</h4>
+                <ol id="question_list">
+                    <li>
+                        Overall, how would you rate the event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Excellent</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Fairly good</li>
+                            <li><input type="radio" disabled=""> Mildly good</li>
+                            <li><input type="radio" disabled=""> Not good at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How likely are you to recommend this event to a friend?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely likely</li>
+                            <li><input type="radio" disabled=""> Very likely</li>
+                            <li><input type="radio" disabled=""> Moderately likely</li>
+                            <li><input type="radio" disabled=""> Slightly likely</li>
+                            <li><input type="radio" disabled=""> Not at all likely</li>
+                        </ul>
+                    </li>
+                    <li>
+                        What did you like about this event?
+                    </li>
+
+                    <li>
+                        What did you dislike about this event?
+                    </li>
+
+                    <li>
+                        How much value for the money was this event?
+                        <ul>
+                            <li><input type="radio" disabled=""> A great deal of value</li>
+                            <li><input type="radio" disabled=""> A lot of value</li>
+                            <li><input type="radio" disabled=""> A moderate amount of value</li>
+                            <li><input type="radio" disabled=""> Little value</li>
+                            <li><input type="radio" disabled=""> Almost no value at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How unique was this event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely unique</li>
+                            <li><input type="radio" disabled=""> Very unique</li>
+                            <li><input type="radio" disabled=""> Fairly unique</li>
+                            <li><input type="radio" disabled=""> Slightly unique</li>
+                            <li><input type="radio" disabled=""> Not at all unique</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How organized was the event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely organized</li>
+                            <li><input type="radio" disabled=""> Very organized</li>
+                            <li><input type="radio" disabled=""> Somewhat organized</li>
+                            <li><input type="radio" disabled=""> Slightly organized</li>
+                            <li><input type="radio" disabled=""> Not at all organized</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How clean was the event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely clean</li>
+                            <li><input type="radio" disabled=""> Very clean</li>
+                            <li><input type="radio" disabled=""> Somewhat clean</li>
+                            <li><input type="radio" disabled=""> Slightly clean</li>
+                            <li><input type="radio" disabled=""> Not at all clean</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How friendly was the staff?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely friendly</li>
+                            <li><input type="radio" disabled=""> Very friendly</li>
+                            <li><input type="radio" disabled=""> Somewhat friendly</li>
+                            <li><input type="radio" disabled=""> Slightly friendly</li>
+                            <li><input type="radio" disabled=""> Not at all friendly</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How helpful was the staff?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely helpful</li>
+                            <li><input type="radio" disabled=""> Very helpful</li>
+                            <li><input type="radio" disabled=""> Somewhat helpful</li>
+                            <li><input type="radio" disabled=""> Slightly helpful</li>
+                            <li><input type="radio" disabled=""> Not at all helpful</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How safe did you feel at this event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely safe</li>
+                            <li><input type="radio" disabled=""> Very safe</li>
+                            <li><input type="radio" disabled=""> Somewhat safe</li>
+                            <li><input type="radio" disabled=""> Slightly safe</li>
+                            <li><input type="radio" disabled=""> Not at all safe</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Prior to the event, how much of the information that you needed did you get?
+                        <ul>
+                            <li><input type="radio" disabled=""> All of the information</li>
+                            <li><input type="radio" disabled=""> Most of the information</li>
+                            <li><input type="radio" disabled=""> Some of the information</li>
+                            <li><input type="radio" disabled=""> A little of the information</li>
+                            <li><input type="radio" disabled=""> None of the information</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Was the event length too long, too short, or about right?
+                        <ul>
+                            <li><input type="radio" disabled=""> Much too long</li>
+                            <li><input type="radio" disabled=""> Somewhat too long</li>
+                            <li><input type="radio" disabled=""> Slightly too long</li>
+                            <li><input type="radio" disabled=""> About right</li>
+                            <li><input type="radio" disabled=""> Slightly too short</li>
+                            <li><input type="radio" disabled=""> Somewhat too short</li>
+                            <li><input type="radio" disabled=""> Much too short</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Is there anything else you'd like to share about this event?
+                    </li>
+                </ol>
+            </article>
+
+            <article id="template_endurance_preview">
+                <h4>Survey Attendees (Endurance Sport)</h4>
+                <ol id="question_list">
+                    <li>
+                        Overall, how would you rate the endurance event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Excellent</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Fairly good</li>
+                            <li><input type="radio" disabled=""> Mildly good</li>
+                            <li><input type="radio" disabled=""> Not good at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How likely are you to recommend this endurance event to a friend?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely likely</li>
+                            <li><input type="radio" disabled=""> Very likely</li>
+                            <li><input type="radio" disabled=""> Moderately likely</li>
+                            <li><input type="radio" disabled=""> Slightly likely</li>
+                            <li><input type="radio" disabled=""> Not at all likely</li>
+                        </ul>
+                    </li>
+                    <li>
+                        What did you like about this endurance event?
+                    </li>
+
+                    <li>
+                        What did you dislike about this endurance event?
+                    </li>
+
+                    <li>
+                        How much value for the money was this endurance event?
+                        <ul>
+                            <li><input type="radio" disabled=""> A great deal of value</li>
+                            <li><input type="radio" disabled=""> A lot of value</li>
+                            <li><input type="radio" disabled=""> A moderate amount of value</li>
+                            <li><input type="radio" disabled=""> Little value</li>
+                            <li><input type="radio" disabled=""> Almost no value at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How organized was the endurance event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely organized</li>
+                            <li><input type="radio" disabled=""> Very organized</li>
+                            <li><input type="radio" disabled=""> Somewhat organized</li>
+                            <li><input type="radio" disabled=""> Slightly organized</li>
+                            <li><input type="radio" disabled=""> Not at all organized</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How clean was the endurance event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely clean</li>
+                            <li><input type="radio" disabled=""> Very clean</li>
+                            <li><input type="radio" disabled=""> Somewhat clean</li>
+                            <li><input type="radio" disabled=""> Slightly clean</li>
+                            <li><input type="radio" disabled=""> Not at all clean</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How friendly was the staff?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely friendly</li>
+                            <li><input type="radio" disabled=""> Very friendly</li>
+                            <li><input type="radio" disabled=""> Somewhat friendly</li>
+                            <li><input type="radio" disabled=""> Slightly friendly</li>
+                            <li><input type="radio" disabled=""> Not at all friendly</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How helpful was the staff?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely helpful</li>
+                            <li><input type="radio" disabled=""> Very helpful</li>
+                            <li><input type="radio" disabled=""> Somewhat helpful</li>
+                            <li><input type="radio" disabled=""> Slightly helpful</li>
+                            <li><input type="radio" disabled=""> Not at all helpful</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How safe did you feel at this endurance event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely safe</li>
+                            <li><input type="radio" disabled=""> Very safe</li>
+                            <li><input type="radio" disabled=""> Somewhat safe</li>
+                            <li><input type="radio" disabled=""> Slightly safe</li>
+                            <li><input type="radio" disabled=""> Not at all safe</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Prior to the endurance event, how much of the information that you needed did you get?
+                        <ul>
+                            <li><input type="radio" disabled=""> All of the information</li>
+                            <li><input type="radio" disabled=""> Most of the information</li>
+                            <li><input type="radio" disabled=""> Some of the information</li>
+                            <li><input type="radio" disabled=""> A little of the information</li>
+                            <li><input type="radio" disabled=""> None of the information</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How well marked was the route?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely well marked</li>
+                            <li><input type="radio" disabled=""> Very well marked</li>
+                            <li><input type="radio" disabled=""> Moderately well marked</li>
+                            <li><input type="radio" disabled=""> Slightly well marked</li>
+                            <li><input type="radio" disabled=""> Not at all well marked</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How likely are you to do this endurance event again?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely likely</li>
+                            <li><input type="radio" disabled=""> Very likely</li>
+                            <li><input type="radio" disabled=""> Moderately likely</li>
+                            <li><input type="radio" disabled=""> Slightly likely</li>
+                            <li><input type="radio" disabled=""> Not at all likely</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How would you rate the course?
+                        <ul>
+                            <li><input type="radio" disabled=""> Excellent</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Good</li>
+                            <li><input type="radio" disabled=""> Fair</li>
+                            <li><input type="radio" disabled=""> Poor</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Was the course too challenging, too easy, or about right?
+                        <ul>
+                            <li><input type="radio" disabled=""> Much too challenging</li>
+                            <li><input type="radio" disabled=""> Somewhat too challenging</li>
+                            <li><input type="radio" disabled=""> A little too challenging</li>
+                            <li><input type="radio" disabled=""> About right</li>
+                            <li><input type="radio" disabled=""> A little too easy</li>
+                            <li><input type="radio" disabled=""> Somewhat too easy</li>
+                            <li><input type="radio" disabled=""> Much too easy</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Is there anything else you'd like to share about this event?
+                    </li>
+                </ol>
+            </article>
+
+            <article id="template_entertainment_preview">
+                <h4>Survey Attendees (Entertainment)</h4>
+                <ol id="question_list">
+                    <li>
+                        Overall, how would you rate the entertainment event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Excellent</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Fairly good</li>
+                            <li><input type="radio" disabled=""> Mildly good</li>
+                            <li><input type="radio" disabled=""> Not good at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How likely are you to recommend this entertainment event to a friend?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely likely</li>
+                            <li><input type="radio" disabled=""> Very likely</li>
+                            <li><input type="radio" disabled=""> Moderately likely</li>
+                            <li><input type="radio" disabled=""> Slightly likely</li>
+                            <li><input type="radio" disabled=""> Not at all likely</li>
+                        </ul>
+                    </li>
+                    <li>
+                        What did you like about this entertainment event?
+                    </li>
+
+                    <li>
+                        What did you dislike about this entertainment event?
+                    </li>
+
+                    <li>
+                        How much value for the money was this entertainment event?
+                        <ul>
+                            <li><input type="radio" disabled=""> A great deal of value</li>
+                            <li><input type="radio" disabled=""> A lot of value</li>
+                            <li><input type="radio" disabled=""> A moderate amount of value</li>
+                            <li><input type="radio" disabled=""> Little value</li>
+                            <li><input type="radio" disabled=""> Almost no value at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How unique was this entertainment event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely unique</li>
+                            <li><input type="radio" disabled=""> Very unique</li>
+                            <li><input type="radio" disabled=""> Fairly unique</li>
+                            <li><input type="radio" disabled=""> Slightly unique</li>
+                            <li><input type="radio" disabled=""> Not at all unique</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Was the entertainment event length too long, too short, or about right?
+                        <ul>
+                            <li><input type="radio" disabled=""> Much too long</li>
+                            <li><input type="radio" disabled=""> Somewhat too long</li>
+                            <li><input type="radio" disabled=""> Slightly too long</li>
+                            <li><input type="radio" disabled=""> About right</li>
+                            <li><input type="radio" disabled=""> Slightly too short</li>
+                            <li><input type="radio" disabled=""> Somewhat too short</li>
+                            <li><input type="radio" disabled=""> Much too short</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How organized was the entertainment event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely organized</li>
+                            <li><input type="radio" disabled=""> Very organized</li>
+                            <li><input type="radio" disabled=""> Somewhat organized</li>
+                            <li><input type="radio" disabled=""> Slightly organized</li>
+                            <li><input type="radio" disabled=""> Not at all organized</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How clean was the entertainment event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely clean</li>
+                            <li><input type="radio" disabled=""> Very clean</li>
+                            <li><input type="radio" disabled=""> Somewhat clean</li>
+                            <li><input type="radio" disabled=""> Slightly clean</li>
+                            <li><input type="radio" disabled=""> Not at all clean</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How friendly was the staff?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely friendly</li>
+                            <li><input type="radio" disabled=""> Very friendly</li>
+                            <li><input type="radio" disabled=""> Somewhat friendly</li>
+                            <li><input type="radio" disabled=""> Slightly friendly</li>
+                            <li><input type="radio" disabled=""> Not at all friendly</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How helpful was the staff?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely helpful</li>
+                            <li><input type="radio" disabled=""> Very helpful</li>
+                            <li><input type="radio" disabled=""> Somewhat helpful</li>
+                            <li><input type="radio" disabled=""> Slightly helpful</li>
+                            <li><input type="radio" disabled=""> Not at all helpful</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How safe did you feel at this entertainment event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely safe</li>
+                            <li><input type="radio" disabled=""> Very safe</li>
+                            <li><input type="radio" disabled=""> Somewhat safe</li>
+                            <li><input type="radio" disabled=""> Slightly safe</li>
+                            <li><input type="radio" disabled=""> Not at all safe</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Prior to the entertainment event, how much of the information that you needed did you get?
+                        <ul>
+                            <li><input type="radio" disabled=""> All of the information</li>
+                            <li><input type="radio" disabled=""> Most of the information</li>
+                            <li><input type="radio" disabled=""> Some of the information</li>
+                            <li><input type="radio" disabled=""> A little of the information</li>
+                            <li><input type="radio" disabled=""> None of the information</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How would you rate the act/entertainment at the event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Excellent</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Good</li>
+                            <li><input type="radio" disabled=""> Fair</li>
+                            <li><input type="radio" disabled=""> Poor</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How would you rate the venue/location?
+                        <ul>
+                            <li><input type="radio" disabled=""> Excellent</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Good</li>
+                            <li><input type="radio" disabled=""> Fair</li>
+                            <li><input type="radio" disabled=""> Poor</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Is there anything else you'd like to share about this event?
+                    </li>
+                </ol>
+            </article>
+
+            <article id="template_professional_preview">
+                <h4>Survey Attendees (Professional)</h4>
+                <ol id="question_list">
+                    <li>
+                        Overall, how would you rate the professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Excellent</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Fairly good</li>
+                            <li><input type="radio" disabled=""> Mildly good</li>
+                            <li><input type="radio" disabled=""> Not good at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How likely are you to recommend this professional event to a friend?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely likely</li>
+                            <li><input type="radio" disabled=""> Very likely</li>
+                            <li><input type="radio" disabled=""> Moderately likely</li>
+                            <li><input type="radio" disabled=""> Slightly likely</li>
+                            <li><input type="radio" disabled=""> Not at all likely</li>
+                        </ul>
+                    </li>
+                    <li>
+                        What did you like about this professional event?
+                    </li>
+
+                    <li>
+                        What did you dislike about this professional event?
+                    </li>
+
+                    <li>
+                        How much value for the money was this professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> A great deal of value</li>
+                            <li><input type="radio" disabled=""> A lot of value</li>
+                            <li><input type="radio" disabled=""> A moderate amount of value</li>
+                            <li><input type="radio" disabled=""> Little value</li>
+                            <li><input type="radio" disabled=""> Almost no value at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How unique was this professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely unique</li>
+                            <li><input type="radio" disabled=""> Very unique</li>
+                            <li><input type="radio" disabled=""> Fairly unique</li>
+                            <li><input type="radio" disabled=""> Slightly unique</li>
+                            <li><input type="radio" disabled=""> Not at all unique</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Was the professional event length too long, too short, or about right?
+                        <ul>
+                            <li><input type="radio" disabled=""> Much too long</li>
+                            <li><input type="radio" disabled=""> Somewhat too long</li>
+                            <li><input type="radio" disabled=""> Slightly too long</li>
+                            <li><input type="radio" disabled=""> About right</li>
+                            <li><input type="radio" disabled=""> Slightly too short</li>
+                            <li><input type="radio" disabled=""> Somewhat too short</li>
+                            <li><input type="radio" disabled=""> Much too short</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How organized was the professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely organized</li>
+                            <li><input type="radio" disabled=""> Very organized</li>
+                            <li><input type="radio" disabled=""> Somewhat organized</li>
+                            <li><input type="radio" disabled=""> Slightly organized</li>
+                            <li><input type="radio" disabled=""> Not at all organized</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How clean was the professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely clean</li>
+                            <li><input type="radio" disabled=""> Very clean</li>
+                            <li><input type="radio" disabled=""> Somewhat clean</li>
+                            <li><input type="radio" disabled=""> Slightly clean</li>
+                            <li><input type="radio" disabled=""> Not at all clean</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How friendly was the staff?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely friendly</li>
+                            <li><input type="radio" disabled=""> Very friendly</li>
+                            <li><input type="radio" disabled=""> Somewhat friendly</li>
+                            <li><input type="radio" disabled=""> Slightly friendly</li>
+                            <li><input type="radio" disabled=""> Not at all friendly</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How helpful was the staff?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely helpful</li>
+                            <li><input type="radio" disabled=""> Very helpful</li>
+                            <li><input type="radio" disabled=""> Somewhat helpful</li>
+                            <li><input type="radio" disabled=""> Slightly helpful</li>
+                            <li><input type="radio" disabled=""> Not at all helpful</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How safe did you feel at this professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely safe</li>
+                            <li><input type="radio" disabled=""> Very safe</li>
+                            <li><input type="radio" disabled=""> Somewhat safe</li>
+                            <li><input type="radio" disabled=""> Slightly safe</li>
+                            <li><input type="radio" disabled=""> Not at all safe</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Prior to the professional event, how much of the information that you needed did you get?
+                        <ul>
+                            <li><input type="radio" disabled=""> All of the information</li>
+                            <li><input type="radio" disabled=""> Most of the information</li>
+                            <li><input type="radio" disabled=""> Some of the information</li>
+                            <li><input type="radio" disabled=""> A little of the information</li>
+                            <li><input type="radio" disabled=""> None of the information</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How would you rate the presenter(s) at the professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Excellent</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Good</li>
+                            <li><input type="radio" disabled=""> Fair</li>
+                            <li><input type="radio" disabled=""> Poor</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        How would you rate the vendors at the professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely good</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Somewhat good</li>
+                            <li><input type="radio" disabled=""> Neither good nor poor</li>
+                            <li><input type="radio" disabled=""> Somewhat poor</li>
+                            <li><input type="radio" disabled=""> Very poor</li>
+                            <li><input type="radio" disabled=""> Extremely poor</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How useful was the information presented at the professional event?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely useful</li>
+                            <li><input type="radio" disabled=""> Very useful</li>
+                            <li><input type="radio" disabled=""> Somewhat useful</li>
+                            <li><input type="radio" disabled=""> Slightly useful</li>
+                            <li><input type="radio" disabled=""> Not useful at all</li>
+                        </ul>
+                    </li>
+                    <li>
+                        How would you rate the venue/location?
+                        <ul>
+                            <li><input type="radio" disabled=""> Extremely good</li>
+                            <li><input type="radio" disabled=""> Very good</li>
+                            <li><input type="radio" disabled=""> Somewhat good</li>
+                            <li><input type="radio" disabled=""> Neither good nor poor</li>
+                            <li><input type="radio" disabled=""> Somewhat poor</li>
+                            <li><input type="radio" disabled=""> Very poor</li>
+                            <li><input type="radio" disabled=""> Extremely poor</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Is there anything else you'd like to share about this event?
+                    </li>
+                </ol>
+            </article>
+
+        </section>
+    </div>
+
+</div>
+<script>
+EB.FrameAPI.init();
+</script>
+</body>
+</html>
