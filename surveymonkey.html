@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SurveyMonkey</title>
     <script src="https://ebmedia.eventbrite.com/s3­build/26238­rc2015­01­19­55b6c1d/django/js/src/plugi ns/api.js"></script>
-    <link rel="stylsheet" href="<link rel="stylsheet" href="https://ebmedia.eventbrite.com/s3-build/26238-rc2015-01-19-55b6c1d/django/css/src/styleguide/styleguide/styleguide.css" />" />
-    </script>
+    <link rel="stylsheet" href="https://ebmedia.eventbrite.com/s3-build/26238-rc2015-01-19-55b6c1d/django/css/src/styleguide/styleguide/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="https://ebmedia.eventbrite.com/s3-build/26815-rc2015-01-26-e231be2/django/css/production/base_styles.css">
+    <link rel="stylesheet" type="text/css" href="https://ebmedia.eventbrite.com/s3-build/26815-rc2015-01-26-e231be2/django/css/production/manage_styleguide.css">
+    <link rel="stylesheet" type="text/css" href="https://ebmedia.eventbrite.com/s3-build/26815-rc2015-01-26-e231be2/django/css/production/responsive_manage.css">
+    <link rel="stylesheet" type="text/css" href="https://ebmedia.eventbrite.com/s3-build/26815-rc2015-01-26-e231be2/django/css/src/attendees_survey.css">
   </head>
   <body> 
   <div class="subsection">
-
-    <div class="g-cell g-cell-1-1 l-padded-v-bottom-4 l-block-2">
-        <div class="notification notification--info ">
-            <i class="ico-info"></i>
-            <p>Eventbrite and SurveyMonkey are teaming up to help you get feedback from your attendees. If you don't have a SurveyMonkey account you can create a free account once you get to the SurveyMonkey website.</p>
-        </div>
-    </div>
 
     <div class="g-cell g-cell-1-1 g-cell-lg-6-12 l-padded-v-bottom-3">
         <section id="select_survey_option">
@@ -47,6 +43,11 @@
                         <input id="template_endurance" type="radio" name="survey_template" data-template_id="4" data-create_type="2">
                         <label class="custom-input--delegate" for="template_endurance"></label>
                         <label for="template_endurance">Endurance Sport</label>
+                    </li>
+                    <li class="responsive-form__radio">
+                        <input id="template_nps" type="radio" name="survey_template" data-template_id="5" data-create_type="2">
+                        <label class="custom-input--delegate" for="template_endurance"></label>
+                        <label for="template_endurance">Net Promoter</label>
                     </li>
                     <li class="responsive-form__radio">
                         <input id="template_new" type="radio" name="survey_template" data-create_type="3">
