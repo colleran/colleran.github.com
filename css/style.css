@@ -22,6 +22,10 @@ body {
 	}
 }
 
+#work {
+	margin-top: 45px;
+}
+
 h2 {
 	background-color: rgba(139,129,125,.2);
 	line-height: 64px;
@@ -185,6 +189,20 @@ h4 {
 
 #huffpo {
 	background-image:url('../images/huffpo.png');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#yahoo {
+	background-image:url('../images/yahoo.jpg');
+	background-size: 90px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#catchy {
+	background-image:url('../images/catchy.png');
 	background-size: 90px;
 	background-repeat: no-repeat;
 	background-position: left top;
