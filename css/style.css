@@ -152,6 +152,13 @@ h4 {
 	background-position: left top;
 }
 
+#Joinit {
+	background-image:url('https://www.joinit.co/join-black.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
 #EY {
 	background-image:url('../images/eylogo.png');
 	background-size: 60px;
